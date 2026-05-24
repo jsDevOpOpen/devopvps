@@ -1,7 +1,7 @@
 {
   "image": "mcr.microsoft.com/devcontainers/universal:2",
   "features": {
-    "ghcr.io/wxw-matt/devcontainer-features/apt:0": {
+    "ghcr.io/devcontainers-extra/features/apt-get-packages:1": {
       "packages": "inetutils-ping"
     }
   },
