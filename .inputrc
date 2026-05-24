@@ -1,0 +1,14 @@
+$if Bash
+    # Search history back and forward using page-up and page-down
+    #"\e[5~": history-search-backward
+    #"\e[6~": history-search-forward
+    "\e[A": history-search-backward
+    "\e[B": history-search-forward
+    "\e[C": forward-char
+    "\e[D": backward-char
+    "\eOA": history-search-backward
+    "\eOB": history-search-forward
+    set page-completions off
+    set completion-query-items 350
+    set show-all-if-ambiguous on
+$endif
