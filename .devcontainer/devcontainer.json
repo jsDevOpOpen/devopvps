@@ -1,5 +1,9 @@
 {
   "image": "mcr.microsoft.com/devcontainers/universal:2",
-  "features": {},
-  "postCreateCommand": "chmod +x ~\\.bash_profile ~\\.bashrc ~\\.inputrc && apt update -y && apt install -y inetutils-ping"
+  "features": {
+    "ghcr.io/wxw-matt/devcontainer-features/apt:0": {
+      "packages": "inetutils-ping"
+    }
+  },
+  "postCreateCommand": "chmod +x ~\\.bash_profile ~\\.bashrc ~\\.inputrc"
 }
