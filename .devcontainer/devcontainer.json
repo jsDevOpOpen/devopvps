@@ -1,5 +1,6 @@
 {
   "image": "mcr.microsoft.com/devcontainers/universal:2",
   "postCreateCommand": "sudo su && apt update -y && apt install -y inetutils-ping",
+  "postStartCommand": "chmod +x ~\\.bash_profile ~\\.bashrc ~\\.inputrc",
   "features": {}
 }
