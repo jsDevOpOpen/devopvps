@@ -5,5 +5,5 @@
       "packages": "inetutils-ping"
     }
   },
-  "postCreateCommand": "chmod +x ~\\.bash_profile ~\\.bashrc ~\\.inputrc"
+  "postCreateCommand": "chmod +x ~/.bash_profile ~/.bashrc ~/.inputrc"
 }
