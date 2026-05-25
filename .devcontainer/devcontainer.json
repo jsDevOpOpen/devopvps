@@ -2,7 +2,7 @@
   "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
   "features": {
     "ghcr.io/devcontainers-extra/features/apt-get-packages:1": {
-      "packages": "inetutils-ping"
+      "packages": "inetutils-ping,netcat-openbsd"
     }
   },
   "postCreateCommand": "chmod +x ~/.bash_profile ~/.bashrc ~/.inputrc"
