@@ -34,3 +34,4 @@ cat /home/vscode/.bash_history
 cat ~/.bash_history
 cp ~/.bash_history /workspaces/devopvps/.bash_history
 ls -alh /home
+echo "Is it visible after restart Codespaces?"
