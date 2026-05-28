@@ -4,9 +4,8 @@
     "ghcr.io/devcontainers-extra/features/apt-get-packages:1": {
       "packages": "inetutils-ping,netcat-openbsd"
     },
-    "ghcr.io/devcontainer-community/devcontainer-features/sshd:1": {
-      "version": "latest",
-      "port": "2222"
+    "ghcr.io/devcontainers/features/sshd:1": {
+      "version": "latest"
     }
   },
   "postCreateCommand": "chmod +x ~/.bash_profile ~/.bashrc ~/.inputrc"
