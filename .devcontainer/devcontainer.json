@@ -6,8 +6,7 @@
     },
     "ghcr.io/devcontainer-community/devcontainer-features/sshd:1": {
       "version": "latest",
-      "port": "2222",
-      "description": "sshd default port 2222 in contaner"
+      "port": "2222"
     }
   },
   "postCreateCommand": "chmod +x ~/.bash_profile ~/.bashrc ~/.inputrc"
