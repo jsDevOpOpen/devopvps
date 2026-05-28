@@ -12,6 +12,7 @@
   "portsAttributes": {
     "2222": {
       "label": "sshd"
-    }
+    },
+  "forwardPorts": ["2222"]
   }
 }
