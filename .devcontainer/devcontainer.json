@@ -8,5 +8,10 @@
       "version": "latest"
     }
   },
-  "postCreateCommand": "chmod +x ~/.bash_profile ~/.bashrc ~/.inputrc"
+  "postCreateCommand": "chmod +x ~/.bash_profile ~/.bashrc ~/.inputrc",
+  "portsAttributes": {
+    "2222": {
+      "label": "sshd"
+    }
+  }
 }
