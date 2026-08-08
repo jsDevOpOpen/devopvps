@@ -13,7 +13,6 @@ cp -v /workspaces/.codespaces/.persistedshare/dotfiles/.bash_history .bash_histo
 cat .bash_history
 cat ./.bash_history
 whereis nc
-whereis ping6
 pwd
 ls -alh 
 cp -v ~/.bash_history /workspaces/devopvps/.bash_history
@@ -41,7 +40,17 @@ lsof
 lsof -i 4 -E
 netstat -4 -al
 echo $PROMPT_COMMAND
-whoami 
 echo $TERM
 alias
 whereis ping6
+whoami 
+whereis tailscale
+uptime
+sudo tailscale --help
+sudo tailscale set --accept-routes
+sudo tailscale set --advertise-exit-node
+sudo tailscale up --accept-routes --advertise-exit-node
+tailscale status
+tailscale netcheck
+sudo sysctl net.ipv4.ip_forward
+sudo sysctl net.ipv6.conf.all.forwarding
