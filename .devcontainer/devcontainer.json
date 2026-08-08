@@ -1,5 +1,5 @@
 {
-  "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+  "image": "mcr.microsoft.com/devcontainers/universal:5",/*Ubuntu 24.04.4 LTS (noble)*/
   "features": {
     "ghcr.io/devcontainers-extra/features/apt-get-packages:1": {
       "packages": "inetutils-ping,netcat-openbsd"
