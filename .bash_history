@@ -21,7 +21,6 @@ nc -zv youtube.com 443
 netstat -pl
 netstat -pln
 sudo netstat -pln
-echo $PROMPT_COMMAND
 curl 
 curl ifconfig.me
 ls -alh ~
@@ -34,4 +33,15 @@ cat /home/vscode/.bash_history
 cat ~/.bash_history
 cp ~/.bash_history /workspaces/devopvps/.bash_history
 ls -alh /home
-echo "Is it visible after restart Codespaces?"
+whereis unminimize
+sudo unminimize
+id
+echo $SHELL
+lsof 
+lsof -i 4 -E
+netstat -4 -al
+echo $PROMPT_COMMAND
+whoami 
+echo $TERM
+alias
+whereis ping6
